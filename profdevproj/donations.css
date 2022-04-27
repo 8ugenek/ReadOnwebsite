@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    padding: 0px;
+    margin: 0;
+
+  }
+  
+
+  .button{
+    height: 65px;
+    width:165px;
+    font-size: 23px;
+    background-color: lightgreen;
+}
+   button:hover{
+    background:green; 
+ 
+ }
+.topnav {
+
+list-style: none;
+}
+
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .topnav a:hover {
+    background-color:lawngreen;
+    color: black;
+  }
+
+
+/* Style the header */
+.header {
+  background-color: darkgreen;
+  padding: 20px;
+  text-align: center;
+}
+  
+  /* Create three unequal columns that floats next to each other */
+.column1 {
+  float: left;
+  padding: 0px;
+  column-count: 1;
+  width: 42%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Middle column */
+.column2 {
+  float: right;
+  padding: 0%;
+  column-count: 1;
+}
+
+.column3 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 0%;
+
+}
+
+ .button2{
+   height: 45px;
+   width: 135px;
+   font-size: 14px;
+   padding: 0%;
+   background-color: lightgreen;
+ }
+   .button2:hover{
+    background:green; 
+ 
+ }
+ 
+ 
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column2, .column1 {
+    width: 100%;
+  }
+
+  
+  }
